@@ -28,7 +28,7 @@
   right: 0;
 }
 </style>
-<section>
+<section class="mb-32 sm:mb-24">
     <div id="home" class="relative">
         <div id="home_carousel"></div>
         <div class="mx-0 md:mx-32">
@@ -43,7 +43,6 @@
             </div>
         </div>
     </div>
-
 </section>
 <script>
     const homeContent = document.getElementById('home_carousel');

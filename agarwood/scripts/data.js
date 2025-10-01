@@ -30,3 +30,17 @@ home_content = [
         imgpath: "images/6.jpg"
     },
 ]
+const gallery_carousel_content = [
+    {
+        imgname: "Agarwood Farming",
+        imgpath: "images/g1.jpg"
+    },
+    {
+        imgname: "Agarwood Farming",
+        imgpath: "images/g1.jpg"
+    },
+    {
+        imgname: "Agarwood Farming",
+        imgpath: "images/g1.jpg"
+    }
+]
