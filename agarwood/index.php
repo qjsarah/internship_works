@@ -12,4 +12,5 @@
     <?php include 'navbar.php'; ?>
 
     <?php include 'home.php'; ?>
+    <?php include 'gallery.php'; ?>
 </body>
