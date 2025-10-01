@@ -43,7 +43,7 @@
             <li class="hover:underline">Events & Visits</li>
         </ul>
     </div>
-    <div id="gallery_carousel"></div>
+    <div id="gallery_carousel" class="relative"></div>
 </section>
 <script>
    const galleryCarousel = document.getElementById('gallery_carousel');
