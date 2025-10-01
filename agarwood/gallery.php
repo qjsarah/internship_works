@@ -91,7 +91,7 @@
     <div class="owl-carousel owl-theme w-full">
         ${gallery_carousel_content.map((content, index) => `
             <div class="p-4">
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden flex items-center justify-center">
+                <div class="bg-white shadow-lg rounded-lg overflow-x-hidden flex items-center justify-center">
                     <img src="${content.imgpath}" alt="${content.imgname}" 
                         class="max-w-full h-auto object-contain p-4" />
                 </div>
@@ -145,9 +145,9 @@ $(".owl-carousel").owlCarousel({
     autoplay: true,
     autoplayTimeout: 4000,
     responsive: {
-        0: { items: 1, dotsData: false },
-        600: { items: 2, dotsData: false },
-        1000: { items: 3, dotsData: false }
+        0: { items: 1 },
+        600: { items: 2 },
+        1000: { items: 3 }
     }
 });
 $("#customPrev").click(function () {
