@@ -51,7 +51,7 @@
     }
 }
 </style>
-<section class="bg-yellow-400 text-blue-600 relative pb-7 nav-section">
+<section class="bg-[#F5F5DD] text-[#896044] relative pb-7 mb-0 nav-section">
   <div class="px-0 w-full md:px-30 mx-auto block md:flex justify-between gap-12 items-center py-2 sm:py-3">
     <div class="flex justify-center items-center">
       <img src="images/nav-logo.png" alt="" class="" style="width: 150px; height: auto;">
@@ -71,13 +71,13 @@
                 <p class="text-lg my-auto">Email Address <br> <span class="text-xl">sample@gmail.com</span></p>
             </div>
         </div>
-        <button class="bg-blue-600 text-white rounded-full w-full font-bold text-xl lg:text-2xl px-4 xl:px-20 py-2 hidden md:block remove-padding">Log in</button>
+        <button class="bg-[#896044] text-white rounded-full w-full font-bold text-xl lg:text-2xl px-4 xl:px-20 py-2 hidden md:block remove-padding">Log in</button>
     </div>
   </div>
 
   <div class="container px-0 mx-auto ">
     <div class="static md:absolute left-1/2 md:-translate-x-1/2 lg:w-full" style="bottom: -20%; z-index: 2;">
-      <div class="bg-blue-600 sm:rounded-lg px-[30px] lg:px-[50px] xl:px-[100px] py-2 mx-30 remove-margin">
+      <div class="bg-[#896044] sm:rounded-lg px-[30px] lg:px-[50px] xl:px-[100px] py-2 mx-30 remove-margin">
         <nav class="block md:flex items-center justify-between">
           <!-- Search -->
            <div class="flex items-center justify-between align-center">
@@ -85,7 +85,7 @@
                     <div class="">
                         <div class="search-wrapper w-[100%]">
                             <input type="text" class="search-input border border-gray-300 rounded-sm px-2 py-1" placeholder="Search">
-                            <button class="search-btn bg-blue-600 text-white text-sm rounded cursor-pointer mx-1 my-2" type="submit">
+                            <button class="search-btn bg-[#896044] text-white text-sm rounded cursor-pointer mx-1 my-2" type="submit">
                             <i class="fa fa-search"></i>
                             </button>
                         </div>
